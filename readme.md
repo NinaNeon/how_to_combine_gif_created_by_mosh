@@ -1,6 +1,6 @@
 https://moshpro.app/lite/
 
-'''
+```
 import imageio.v2 as imageio
 from PIL import Image, ImageSequence
 import cv2
@@ -72,7 +72,7 @@ all_durations = gif1_durations + video_durations + gif3_durations
 
 imageio.mimsave(output_path, all_frames, duration=all_durations, loop=0)
 print(f"✅ 已輸出：{output_path}")
-'''
+```
 
 ![Screenshot from 2025-05-31 19-31-00](https://github.com/user-attachments/assets/4f956c61-0b81-4f20-81e5-12cdd1eeada3)
 
